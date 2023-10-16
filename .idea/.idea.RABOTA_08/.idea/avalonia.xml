@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="RABOTA_08/AddWindow.axaml" value="RABOTA_08/RABOTA_08.csproj" />
+        <entry key="RABOTA_08/App.axaml" value="RABOTA_08/RABOTA_08.csproj" />
+        <entry key="RABOTA_08/EditWindow.axaml" value="RABOTA_08/RABOTA_08.csproj" />
+        <entry key="RABOTA_08/MainWindow.axaml" value="RABOTA_08/RABOTA_08.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

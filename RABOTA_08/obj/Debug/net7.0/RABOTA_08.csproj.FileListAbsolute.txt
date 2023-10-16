@@ -1,0 +1,7 @@
+/home/KHPK.RU/student/Рабочий стол/RABOTA_08/RABOTA_08/obj/Debug/net7.0/RABOTA_08.csproj.AssemblyReference.cache
+/home/KHPK.RU/student/Рабочий стол/RABOTA_08/RABOTA_08/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache
+/home/KHPK.RU/student/Рабочий стол/RABOTA_08/RABOTA_08/obj/Debug/net7.0/Avalonia/resources
+/home/KHPK.RU/student/Рабочий стол/RABOTA_08/RABOTA_08/obj/Debug/net7.0/RABOTA_08.GeneratedMSBuildEditorConfig.editorconfig
+/home/KHPK.RU/student/Рабочий стол/RABOTA_08/RABOTA_08/obj/Debug/net7.0/RABOTA_08.AssemblyInfoInputs.cache
+/home/KHPK.RU/student/Рабочий стол/RABOTA_08/RABOTA_08/obj/Debug/net7.0/RABOTA_08.AssemblyInfo.cs
+/home/KHPK.RU/student/Рабочий стол/RABOTA_08/RABOTA_08/obj/Debug/net7.0/RABOTA_08.csproj.CoreCompileInputs.cache

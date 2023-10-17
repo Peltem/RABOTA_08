@@ -5,5 +5,16 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="RABOTA_08.MainWindow"
         Title="RABOTA_08">
-    Welcome to Avalonia!
+    <Grid>
+        <DataGrid x:Name="DataGridApplic" x:CompileBindings="False" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Оборудование" Binding="{Binding Equip}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Серийный номер" Binding="{Binding SerialN}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Описание проблемы" Binding="{Binding Description}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Тип оборудования" Binding="{Binding TypeEq}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Приоритет" Binding="{Binding Priority}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Клиент" Binding="{Binding Client}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
 </Window>

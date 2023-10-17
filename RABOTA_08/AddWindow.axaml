@@ -10,8 +10,8 @@
         <TextBox HorizontalAlignment="Center" Text="Серийный номер" Name="SerialN"></TextBox>
         <TextBox HorizontalAlignment="Center" Text="Описание проблемы" Name="Description"></TextBox>
         <TextBox HorizontalAlignment="Center" Text="Тип оборудования" Name="Type"></TextBox>
+        <TextBox HorizontalAlignment="Center" Text="Приоритет" Name="Priority"></TextBox>
         <TextBox HorizontalAlignment="Center" Text="Клиент" Name="Client"></TextBox>
-        <Button Name="AddBtn" Click="     {
-       "></Button>
+        <Button Name="AddBtn" Click="AddBtn_OnClick" Content="Добавить"></Button>
     </Grid>
 </Window>

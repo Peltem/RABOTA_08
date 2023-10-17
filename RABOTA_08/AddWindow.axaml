@@ -5,13 +5,13 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="RABOTA_08.AddWindow"
         Title="Создание заявки">
-    <Grid>
-        <TextBox HorizontalAlignment="Center" Text="Оборудование" Name="Equip"></TextBox>
-        <TextBox HorizontalAlignment="Center" Text="Серийный номер" Name="SerialN"></TextBox>
-        <TextBox HorizontalAlignment="Center" Text="Описание проблемы" Name="Description"></TextBox>
-        <TextBox HorizontalAlignment="Center" Text="Тип оборудования" Name="Type"></TextBox>
-        <TextBox HorizontalAlignment="Center" Text="Приоритет" Name="Priority"></TextBox>
-        <TextBox HorizontalAlignment="Center" Text="Клиент" Name="Client"></TextBox>
+    <StackPanel>
+        <TextBox Watermark="Оборудование" Name="Equip"></TextBox>
+        <TextBox Watermark="Серийный номер" Name="SerialN"></TextBox>
+        <TextBox Watermark="Описание проблемы" Name="Description"></TextBox>
+        <TextBox Watermark="Тип оборудования" Name="TypeEq"></TextBox>
+        <TextBox Watermark="Приоритет" Name="Priority"></TextBox>
+        <TextBox Watermark="Клиент" Name="Client"></TextBox>
         <Button Name="AddBtn" Click="AddBtn_OnClick" Content="Добавить"></Button>
-    </Grid>
+    </StackPanel>
 </Window>

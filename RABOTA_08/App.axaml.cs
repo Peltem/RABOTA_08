@@ -5,6 +5,7 @@ using Avalonia.Markup.Xaml;
 namespace RABOTA_08;
 
 public partial class App : Application
+
 {
     public override void Initialize()
     {

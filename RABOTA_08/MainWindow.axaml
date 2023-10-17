@@ -16,5 +16,6 @@
                 <DataGridTextColumn Header="Клиент" Binding="{Binding Client}"></DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
+        <Button Name="AddBtn" Content="Добавить" Click="AddBtn1_OnClick" ></Button>
     </Grid>
 </Window>

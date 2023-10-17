@@ -21,7 +21,7 @@ public partial class AddWindow : Window
         string _connString = "server=10.10.1.24;database=pro1_8;User Id=user_01;password=user01pro";
         List<Application1> _aplications;
         MySqlConnection _connection;
-        string sql = "INSERT INTO Заявка (ОборудованиеIDs, СерийныйНомер, ОписаниеПроблемы, ТипОборудование, ПриоритетIDs, КлиентIDs) VALUES (@Equip, @SerialN, @Description, @Type, @Priority, @Client)";
+        string sql = "INSERT INTO Заявка (ОборудованиеIDs, СерийныйНомер, ОписаниеПроблемы, ТипОборудования, ПриоритетIDs, КлиентIDs) VALUES (@Equip, @SerialN, @Description, @TypeEq, @Priority, @Client)";
         _aplications = new List<Application1>();
         _connection = new MySqlConnection(_connString);
         _connection.Open();

@@ -42,7 +42,8 @@ public partial class AddWindow : Window
         command.Parameters["@Client"].Value = Client.Text;
         command.ExecuteNonQuery();
         this.Close(true);
-        Result = true;
+        Result = true; 
+        
     }
     public bool Result { get; private set; }
 }

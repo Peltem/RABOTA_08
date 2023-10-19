@@ -68,6 +68,35 @@ public partial class MainWindow : Window
             if (addWindow.Result)
             {
                 UpdateDataGrid();
+                
+            }
+        });
+    }
+
+    private void ShowBtn_OnClick(object? sender, RoutedEventArgs e)
+    {
+        TableShow tableShow = new TableShow();
+        tableShow.Show();
+
+    }
+
+    private void RepairBtn_OnClick(object? sender, RoutedEventArgs e)
+    {
+        RepairWindow repairWindow = new RepairWindow();
+        repairWindow.Show();
+    }
+
+    private void EditBtn_OnClick(object? sender, RoutedEventArgs e)
+    {
+        var myValue = new Application1();
+        EditWindow editWindow = new EditWindow(myValue);
+        editWindow.ShowDialog(this);
+        editWindow.Closed += ((o, args) =>
+        {
+            if (editWindow.Result)
+            {
+                UpdateDataGrid();
+                
             }
         });
     }

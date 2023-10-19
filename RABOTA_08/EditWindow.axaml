@@ -4,12 +4,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="RABOTA_08.EditWindow"
+        xmlns:RABOTA_08="clr-namespace:RABOTA_08"
+        x:DataType="RABOTA_08:Application1"
         Title="Редактирование заявки">
-        <Grid>
-        <TextBox HorizontalAlignment="Center" Text="Оборудование" Name="Equip"></TextBox>
-        <TextBox HorizontalAlignment="Center" Text="Серийный номер" Name="SerialN"></TextBox>
-        <TextBox HorizontalAlignment="Center" Text="Описание проблемы" Name="Description"></TextBox>
-        <TextBox HorizontalAlignment="Center" Text="Тип оборудования" Name="Type"></TextBox>
-        <TextBox HorizontalAlignment="Center" Text="Клиент" Name="Client"></TextBox>
-        </Grid>
+        <StackPanel>
+                <TextBox Name="Equip" Text="{Binding Equip}"> </TextBox>
+                <TextBox Watermark="Серийный номер" Name="SerialN"></TextBox>
+                <TextBox Watermark="Описание проблемы" Name="Description"></TextBox>
+                <TextBox Watermark="Тип оборудования" Name="TypeEq"></TextBox>
+                <TextBox Watermark="Приоритет" Name="Priority"></TextBox>
+                <TextBox Watermark="Клиент" Name="Client"></TextBox>
+                <Button Name="AddBtn" Click="EditBtn_OnClick" Content="Добавить"></Button>
+        </StackPanel>
 </Window>

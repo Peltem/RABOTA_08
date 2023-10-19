@@ -17,5 +17,8 @@
             </DataGrid.Columns>
         </DataGrid>
         <Button Name="AddBtn" Content="Добавить" Click="AddBtn1_OnClick" ></Button>
+        <Button Name="ShowBtn" Content="Таблицы" Click="ShowBtn_OnClick" Margin="100"></Button>
+        <Button Name="RepairBtn" Content="Ремонт Оборудования" Margin=" 190" Click="RepairBtn_OnClick"></Button>
+        <Button Name="EditBtn" Content="Редактирование" Margin="0,100,0,0" Click="EditBtn_OnClick"/>
     </Grid>
 </Window>

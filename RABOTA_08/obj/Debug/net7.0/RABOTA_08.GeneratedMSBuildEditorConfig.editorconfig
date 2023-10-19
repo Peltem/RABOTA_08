@@ -26,3 +26,9 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [/home/KHPK.RU/student/Рабочий стол/RABOTA_08/RABOTA_08/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/KHPK.RU/student/Рабочий стол/RABOTA_08/RABOTA_08/RepairWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/KHPK.RU/student/Рабочий стол/RABOTA_08/RABOTA_08/TableShow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
